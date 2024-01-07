@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Gidroy-Medium;
+  src: url(../font/gilroy-medium-webfont.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gidroy-Bold;
+  src: url(../font/gilroy-bold-webfont.woff2);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s all linear;
+  font-family: Gidroy-Medium;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 1px;
+}
+
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --bg-button: rgba(231, 240, 255, 1);
+  --blue: rgba(0, 106, 255, 1);
+  --light-blue: rgba(0, 106, 255, 0.36);
+  --grey-002: rgba(17, 17, 17, 0.02);
+  --grey-036: rgba(17, 17, 17, 0.36);
+  --grey-054: rgba(17, 17, 17, 0.54);
+  --grey-072: rgba(17, 17, 17, 0.72);
+  --black: rgba(17, 17, 17, 1);
+}
+
+#root {
+  max-width: 1440px;
+  margin: auto;
+}/*# sourceMappingURL=index.css.map */

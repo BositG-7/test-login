@@ -1,0 +1,74 @@
+.footer {
+   padding: 20px 110px;
+   overflow-x: hidden;
+   width: 100%;
+
+   .boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+      border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+      padding-bottom: 20px;
+      .box {
+         img {
+            margin-left: -12px;
+         }
+         .social {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .fa-brands {
+               color: var(--black);
+               font-size: 25px;
+            }
+         }
+         h3 {
+            font-size: 16px;
+            color: var(--grey-054);
+            font-family: Gidroy-medium;
+         }
+         ul {
+            padding-top: 10px;
+            li {
+               color: var(--black);
+               margin-top: 10px;
+               cursor: pointer;
+            }
+         }
+         p,
+         h2,
+         h4 {
+            font-size: 16px;
+            padding: 15px 0;
+            color: var(--black);
+         }
+      }
+   }
+   h6 {
+      font-size: 16px;
+      font-family: Gidroy-Medium;
+      color: var(--grey-036);
+      text-align: center;
+      padding: 20px 0 10px;
+      span {
+         color: var(--blue);
+      }
+   }
+   @media screen and (max-width: 1200px) {
+      padding: 20px 70px;
+   }
+   @media screen and (max-width: 992px) {
+      padding: 20px 50px;
+   }
+   @media screen and (max-width: 768px) {
+      padding: 20px 30px;
+   }
+   @media screen and (max-width: 568px) {
+      padding: 20px 16px;
+
+      h6 {
+         font-size: 14px;
+      }
+   }
+}

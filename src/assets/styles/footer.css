@@ -1,0 +1,77 @@
+.footer {
+  padding: 20px 110px;
+  overflow-x: hidden;
+  width: 100%;
+}
+.footer .boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  border-bottom: 2px solid rgba(17, 17, 17, 0.06);
+  padding-bottom: 20px;
+}
+.footer .boxes .box img {
+  margin-left: -12px;
+}
+.footer .boxes .box .social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer .boxes .box .social .fa-brands {
+  color: var(--black);
+  font-size: 25px;
+}
+.footer .boxes .box h3 {
+  font-size: 16px;
+  color: var(--grey-054);
+  font-family: Gidroy-medium;
+}
+.footer .boxes .box ul {
+  padding-top: 10px;
+}
+.footer .boxes .box ul li {
+  color: var(--black);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.footer .boxes .box p,
+.footer .boxes .box h2,
+.footer .boxes .box h4 {
+  font-size: 16px;
+  padding: 15px 0;
+  color: var(--black);
+}
+.footer h6 {
+  font-size: 16px;
+  font-family: Gidroy-Medium;
+  color: var(--grey-036);
+  text-align: center;
+  padding: 20px 0 10px;
+}
+.footer h6 span {
+  color: var(--blue);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 20px 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer {
+    padding: 20px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .footer {
+    padding: 20px 16px;
+  }
+  .footer h6 {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=footer.css.map */
